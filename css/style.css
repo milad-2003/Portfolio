@@ -238,10 +238,12 @@ body {
     color: #00abf0;
     overflow: hidden;
     z-index: 1;
+    transition: 500ms;
 }
 
 .home-sci a:hover {
     color: #081b29;
+    box-shadow: 0 0 20px #00abf0;
 }
 
 .home-sci a::before {
