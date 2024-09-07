@@ -8,7 +8,6 @@
 }
 
 body {
-    background: #081b29;
     color: #ededed;
 }
 
@@ -48,6 +47,9 @@ body {
 
 .home {
     height: 100vh;
+    background: url('/images/background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
     padding: 0 10%;
@@ -177,4 +179,19 @@ body {
 
 .home-sci a:hover::before {
     width: 100%;
+}
+
+.home-imgHover {
+    position: absolute;
+    top: 0;
+    right: 220px;
+    width: 500px;
+    height: 100%;
+    background: transparent;
+    transition: 3s;
+}
+
+.home-imgHover:hover {
+    background: #081b29;
+    opacity: 0.8;
 }
